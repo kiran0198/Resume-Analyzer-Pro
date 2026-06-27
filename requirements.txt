@@ -1,8 +1,8 @@
 streamlit
 pandas
 plotly
-scikit-learn==1.6.1
 numpy
+scikit-learn==1.6.1
 nltk
-PyMuPDF
 joblib
+PyMuPDF
