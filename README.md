@@ -45,9 +45,22 @@ Plotly
 
 ## Dataset
 
-2483 professional resumes
+This project was trained using the **Resume Classification Dataset for NLP** created by **Hassnain Zaidi** and published on Kaggle.
 
-24 job categories
+**Dataset:** Resume Classification Dataset for NLP
+
+**Source:** https://www.kaggle.com/datasets/hassnainzaidi/resume-classification-dataset-for-nlp
+
+The dataset contains over **2,400 labeled resumes** across **24 professional categories** and is distributed under the **CC0 (Public Domain)** license.
+
+The dataset was further preprocessed for this project by:
+
+* Cleaning HTML, URLs, emails, and phone numbers
+* Text normalization and lemmatization
+* Custom stopword removal
+* TF-IDF feature extraction
+* Chi-Square feature selection
+
 
 ---
 
