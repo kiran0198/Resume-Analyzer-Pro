@@ -1,8 +1,14 @@
 import re
 import pymupdf as fitz              # PyMuPDF
 import joblib
-import nltk
 import numpy as np
+import nltk
+
+for pkg in ["punkt", "punkt_tab", "wordnet", "omw-1.4"]:
+    try:
+        nltk.data.find(pkg)
+    except LookupError:
+        nltk.download(pkg, quiet=True)
 
 
 
